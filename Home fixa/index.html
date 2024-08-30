@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./mapa/map.css">
+    <link rel="stylesheet" href="./perguntas/perguntas.css">
+    <link rel="stylesheet" href="./footer/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Revitalize Blood</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class=" " id="nav_logo">🩸Blood Bond</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./login/index.html">Sou Hemonúcleo</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#notificação">Notificação</a>
+                </li>
+            </ul>
+
+            <button   class="btn-default">
+              <a href="./doadorLogin/doador.html"> Login/Doador</a>
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Login">Cardápio</a>
+                </li>
+                
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"><img src="Design sem nome (3).png" id="img"></div>
+            <div id="cta">
+                <h1 class="title">
+                    #Seja sangue
+                    <span>bom</span>
+                </h1>
+
+                <p class="description">
+                   Ao se cadastrar, você se torna parte de uma rede vital de doadores,
+                   facilitando a doação e ajudando a salvar vidas.<br>
+                   Juntos podemos fazer a diferença!
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="./login/" class="btn-default">
+                        Cadastre-se
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+  </section>
+  </main>
+
+            <!-- MAP -->
+
+
+    <h1 id="mapheader">Hemonúcleos Cadastrados</h1>  
+    <div id="map"> 
+    <section id="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.7022356790135!2d-44.090716123789036!3d-22.515352424000742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9ea356592891d9%3A0xd24051c8fbf01b37!2sHemon%C3%BAcleo%20de%20Volta%20Redonda!5e0!3m2!1spt-BR!2sbr!4v1723121442753!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+      </section>
+    <br>
+    <div id="textomap">
+        <h3>
+             Volta Redonda
+        </h3>
+        <p>Rua Nossa Sra. das Graças, 273 - São Geraldo, Volta Redonda - RJ, 27253-610</p>
+    </div>
+    </div>
+
+  <br>
+  <br>
+  
+
+    <!-- Perguntas frequentes -->
+
+    <section>
+        <h2>Perguntas Frequentes</h2>
+        <div class="container">
+          <div class="card">
+            <div class="card-inner" style="--clr:#fff;">
+              <div class="box">
+                <div class="imgBox">
+                  <img src="img/qem.png" alt="Trust & Co.">
+                </div>
+                <div class="icon">
+                  <a href="#" class="iconBox"> <span class="material-icons-outlined">arrow_outward</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+              <h3>Quem pode doar ?</h3>
+              <p>Aqui você poderá ver os requisitos para doar</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-inner" style="--clr:#fff;">
+              <div class="box">
+                <div class="imgBox">
+                  <img src="img/BrasilComS_00313.jpg" alt="Tonic">
+                </div>
+                <div class="icon">
+                  <a href="#" class="iconBox"><span class="material-icons-outlined">arrow_outward</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+              <h3>Cadastra-se</h3>
+              <p>Você pode se cadastra tanto como doador quanto Hemonucleo</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-inner" style="--clr:#fff;">
+              <div class="box">
+                <div class="imgBox">
+                  <img src="img/not.png" alt="Shower Gel">
+                </div>
+                <div class="icon">
+                  <a href="#" class="iconBox"> <span class="material-icons-outlined">arrow_outward</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+              <h3>Notificações</h3>
+              <p>Nessa parte você poderá receber notificações sobre a falta de sangue no Hemonucleo</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!--COLOCAR A PORRA DOS REQUISITOS BASICAS AQUI!!!!!!!-->
+        
+
+            <!-- footer -->
+        <footer class="rodape" id="contato">
+            <div class="rodape-div">
+        
+                <div class="rodape-div-1">
+                    <div class="rodape-div-1-coluna">
+                        <!-- elemento -->
+                        <span><b>Blood Bond🎗</b></span>
+                        <p> R. Nossa Sra. das Graças, 273 - São Geraldo, <br>
+                            Volta Redonda - RJ, 27253-610</p>
+                    </div>
+                </div>
+        
+                <div class="rodape-div-2">
+                    <div class="rodape-div-2-coluna">
+                        <!-- elemento -->
+                        <span><b>Contatos</b></span>
+                        <p>revitalize.blood@gmail.com</p>
+                    </div>
+                </div>
+        
+                <div class="rodape-div-3">
+                    <div class="rodape-div-3-coluna">
+                        <!-- elemento -->
+                        <span><b>Links</b></span>
+                        <p><a href="Home.html">Home</a></p>
+                        <p><a href="#empresa">Notificação</a></p>
+                        <p><a href="login/index.html">Login</a></p>
+                        <p><a href="#sobre">Sobre</a></p>
+                    </div>
+                </div>
+        
+           
+               
+            </div>
+            <p class="rodape-direitos">Copyright © 2024 – Malvatrem productions.</p>
+        </footer>
+                </ul>
+            </nav>
+        </footer>
+
+        
+      
+  
+  </body>
+  </html>
+  

@@ -1,0 +1,76 @@
+:root {
+    --vermelho-escuro: #8B0A1A;
+    --vermelho-claro: #FFC080;
+    --branco: #FFFFFF;
+    --preto: #000000;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--branco);
+    color: var(--preto);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: var(--vermelho-claro);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+form {
+    background-color: var(--vermelho-claro);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left; /* Alinha o texto dos labels à esquerda */
+}
+
+label {
+    margin-left: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: var(--vermelho-escuro);
+    color: var(--branco);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: var(--vermelho-claro);
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    form {
+        width: 90%;
+    }
+}
